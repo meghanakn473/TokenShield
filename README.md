@@ -12,7 +12,7 @@ This system implements secure authentication and role-based access control (RBAC
 - **Logout Handling**
 - **User Profiles**
 
-### Technologies Used
+## Technologies Used
 
 - **Node.js**: JavaScript runtime for building the backend.
 - **Express**: Web framework for building the API and handling HTTP requests.
@@ -56,10 +56,6 @@ This system implements secure authentication and role-based access control (RBAC
 - **Access Protected Routes**:
   Use the JWT token in the Authorization header as Bearer <token> to access protected routes like /api/auth/profile, /api/auth/admin, or /api/auth/moderator.
   Authorization: Bearer <your_jwt_token>
-
-  ```
-
-  ```
 
 ### Protected Routes
 
